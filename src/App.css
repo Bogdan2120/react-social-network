@@ -6,22 +6,3 @@
   grid-template-rows: 60px 1fr;
   grid-auto-columns: 2fr 10fr;
 }
-
-.header {
-  grid-area: h;
-  background-color: aqua;
-}
-
-.header img {
-  width: 40px;
-}
-
- .nav {
-  grid-area: n;
-   background-color: aquamarine;
-}
-
-.content {
-  grid-area: c;
-  background-color: antiquewhite;
-}
