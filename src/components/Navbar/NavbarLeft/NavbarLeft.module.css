@@ -1,4 +1,4 @@
-.nav {
-    grid-area: n;
+.navLeft {
+    grid-area: nl;
     background-color: aquamarine;
 }

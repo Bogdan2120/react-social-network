@@ -1,8 +1,8 @@
-import s from './Navbar.module.css'
+import s from './NavbarLeft.module.css'
 
-const Navbar = () => {
+const NavbarLeft = () => {
     return (
-        <nav className={s.nav}>
+        <nav className={s.navLeft}>
             <div><a href="#s"></a>Profile</div>
             <div><a href="#s"></a>Messages</div>
             <div><a href="#s"></a>News</div>
@@ -12,4 +12,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default NavbarLeft;

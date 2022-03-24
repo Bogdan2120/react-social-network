@@ -1,0 +1,4 @@
+.navRight {
+    grid-area: nr;
+    background-color: red;
+}
