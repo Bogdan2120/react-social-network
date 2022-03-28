@@ -1,13 +1,16 @@
 import s from './NavbarLeft.module.css'
+import {NavLink} from "react-router-dom";
+
+const setActive = ({isActive}) => isActive ? s.active : "";
 
 const NavbarLeft = () => {
     return (
-        <nav className={s.navLeft}>
-            <div><a href="#s"></a>Profile</div>
-            <div><a href="#s"></a>Messages</div>
-            <div><a href="#s"></a>News</div>
-            <div><a href="#s"></a>Music</div>
-            <div><a href="#s"></a>Settings</div>
+        <nav className={s.nav}>
+            <div className={s.item}><NavLink to="/profile" className={setActive}>Profile</NavLink></div>
+            <div className={s.item}><NavLink to="/messages" className={setActive}>Messages</NavLink></div>
+            <div className={s.item}><NavLink to="/news" className={setActive}>News</NavLink></div>
+            <div className={s.item}><NavLink to="music" className={setActive}>Music</NavLink></div>
+            <div className={s.item}><NavLink to="/settings" className={setActive}>Settings</NavLink></div>
         </nav>
     );
 }

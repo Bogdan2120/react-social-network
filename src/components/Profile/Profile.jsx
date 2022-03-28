@@ -6,7 +6,7 @@ import ProfileDescription from "./ProfileDescription/ProfileDescription";
 
 const Profile = () => {
     return (
-        <div className={s.content}>
+        <div>
             <BackgroundAvatar />
             <Avatar />
             <ProfileDescription />

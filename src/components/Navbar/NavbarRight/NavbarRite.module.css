@@ -1,4 +1,8 @@
 .navRight {
-    grid-area: nr;
+    /*grid-area: nr;*/
+    width: 270px;
+    position: fixed;
+    right: 20px;
+    top: 90px;
     background-color: red;
 }
